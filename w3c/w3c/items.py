@@ -8,10 +8,8 @@
 import scrapy
 
 
-class RunoobItem(scrapy.Item):
+class W3CItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-	title = scrapy.Field()
-    link = scrapy.Field()
-    desc = scrapy.Field()
+    name = scrapy.Field()
     pass
